@@ -1,0 +1,19 @@
+{
+  "name": "@pipeline-visualizer/analysis-engine",
+  "version": "1.0.0",
+  "description": "Validation, DAG cycle detection, and pipeline graph diagnostics",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@pipeline-visualizer/adapter-shared": "*",
+    "@pipeline-visualizer/core-model": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

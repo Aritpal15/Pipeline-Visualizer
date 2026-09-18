@@ -1,0 +1,14 @@
+node_modules
+dist
+.turbo
+.next
+out
+build
+*.log
+.DS_Store
+.env
+.env.local
+# Emitted build declarations & maps
+*.tsbuildinfo
+*.js.map
+*.d.ts.map

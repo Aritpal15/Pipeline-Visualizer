@@ -1,0 +1,15 @@
+{
+  "name": "@pipeline-visualizer/core-model",
+  "version": "1.0.0",
+  "description": "Normalized CI/CD workflow model definitions and schemas",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
